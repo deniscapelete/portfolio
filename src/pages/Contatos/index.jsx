@@ -1,11 +1,14 @@
 import Header from "../../components/Header"
 import Footer from "../../components/Footer"
+import Container from "../../components/Container"
 
 function Contatos() {
   return (
     <>
       <Header />
-      <h1>contatos</h1>
+      <Container>
+        <h2>contatos</h2>
+      </Container>
       <Footer />
     </>
   )
