@@ -8,7 +8,7 @@ function Projetos() {
 
   useEffect(() => {
     const buscarRepositorios = async () => {
-      const response = await fetch('https://api.github.com/users/deniscapelete/repos')
+      const response = await fetch('https://api.github.com/users/deniscapelete/repos?page=1_page=50') // Query paramers (?page=1_page=50) vai ter 50 por página
       const data = await response.json()
       setRepositories(data)
     }
