@@ -14,7 +14,7 @@ function Sobre() {
 
         <div className={styles.bio}>
           <img src={avatar} alt="Avatar" className={styles.avatar} />
-          <div className={styles.testos}>
+          <div className={styles.textos}>
             <h2>Sobre</h2>
 
             <p>Sou <span>Denis Capelete</span> <br />
