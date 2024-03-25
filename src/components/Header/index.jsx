@@ -13,7 +13,9 @@ function Header() {
       <Link to="/">
         <span>denisCapelete.dev</span>
       </Link>
-      <nav className={styles.menuSandwich}>
+      <nav className={`${styles.menuSandwich} ${showMenu ? styles.show : ''}`}
+        onClick={toggleMenu}>
+        {/* se showMenu for verdadeira adiciona a classe show se não, não faz nada */}
         <Link to="/">Home</Link>
         <Link to="/sobre">Sobre</Link>
         <Link to="/projetos">Projetos</Link>
